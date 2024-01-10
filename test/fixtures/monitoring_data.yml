@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  temperature: 1.5
+  humidity: 1.5
+  lux: 1.5
+  recorded_at: 2024-01-10 23:23:31
+
+two:
+  temperature: 1.5
+  humidity: 1.5
+  lux: 1.5
+  recorded_at: 2024-01-10 23:23:31

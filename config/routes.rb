@@ -1,3 +1,8 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  resources :monitoring_data, only: [] do
+    collection do
+      get 'create', to: 'monitoring_data#create'
+      get 'temperature', to: 'monitoring_data#temperature_data'
+    end
+  end
 end

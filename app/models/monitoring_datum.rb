@@ -1,0 +1,2 @@
+class MonitoringDatum < ApplicationRecord
+end
